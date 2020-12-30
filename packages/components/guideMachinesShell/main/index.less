@@ -1,0 +1,87 @@
+@import url('../../../common/config.less');
+.guideMachinesShell{
+    color: #fff;
+    .contentBox{
+        width: 90%;
+        margin: 0 auto;
+    }
+.contentMsg{
+    position: relative;
+    margin-top: 8rem;
+    position: relative;
+    .imgBox{
+        width: 45%;
+        position: relative;
+        z-index: 2;
+        .Shell{
+            width: 100%;
+        }
+        .leftMsg{
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            font-size: @fontSize2;
+        }
+    }
+    .tipsBox{
+        background: @textBg;
+        background-size: 100% 100%;
+        width: 60%;
+        position: absolute;
+        right: -0.4375rem;
+        top: 4rem;
+        padding: .3rem .5rem  .7rem;
+        font-size: @fontSize3;
+        p{
+            width: 90%;
+            max-height: 10rem;
+            min-height: 4rem;
+            overflow: scroll;
+            overflow-y:auto;
+            padding: 0 0 1% 14%;
+            font-size: 16px;
+        }
+    }
+}
+.bnts{
+    margin-top: 2rem;
+    text-align: center;
+    span{
+        color: #065a85;
+        display: inline-block;
+        background:@bntBg;
+        border: 1px solid #7b91a1;
+        font-size: @fontSize6;
+        line-height: 3rem;
+        border-radius: 2rem;
+        height: 3rem; 
+        // display: block;
+    }
+}
+
+.bnt1{
+    span{
+        width:80%;
+        margin: 0 auto;
+    }
+}
+.bnt2{
+    span{ width: 45%};
+}
+.closeBnt{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    background-size: 100%;
+    position: absolute;
+    color: #7b91a1;
+    font-size: @fontSize5;
+    text-align: center;
+    line-height: 40px;
+    top: 8rem;
+    right:.5rem;
+    border-radius: 100%;
+    box-shadow: 0 0.5rem 4rem rgba(255,255,255,.5);
+}
+}
